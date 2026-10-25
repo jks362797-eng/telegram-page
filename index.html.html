@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautam Kumar Jha - Official Telegram Channel</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-glow': 'pulseGlow 2s infinite',
+                        'bounce-subtle': 'bounceSubtle 2s infinite',
+                    },
+                    keyframes: {
+                        pulseGlow: {
+                            '0%, 100%': { boxShadow: '0 0 20px rgba(34, 197, 94, 0.6)' },
+                            '50%': { boxShadow: '0 0 35px rgba(34, 197, 94, 0.9)' },
+                        },
+                        bounceSubtle: {
+                            '0%, 100%': { transform: 'translateY(-3%)' },
+                            '50%': { transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+            min-height: 100vh;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-feature {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-left: 4px solid #3b82f6;
+            transition: all 0.3s ease;
+        }
+        .glass-feature:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateX(4px);
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-100 flex items-center justify-center p-4 sm:p-6 min-h-screen">
+
+    <!-- Container Card -->
+    <div class="w-full max-w-md glass-card rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-hidden text-center my-auto">
+        
+        <!-- Subtle Glow Background Decoration -->
+        <div class="absolute -top-20 -left-20 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-20 -right-20 w-40 h-40 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <!-- Profile Avatar with Blue Glow Ring -->
+        <div class="relative w-28 h-28 mx-auto mb-5">
+            <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500 via-sky-400 to-indigo-500 animate-spin-slow p-[3px] shadow-[0_0_25px_rgba(59,130,246,0.6)]">
+                <div class="w-full h-full bg-slate-900 rounded-full"></div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300" 
+                 alt="Gautam Kumar Jha" 
+                 class="relative w-full h-full rounded-full object-cover p-1.5 border-2 border-transparent">
+        </div>
+
+        <!-- Name + Blue Tick Badge -->
+        <div class="flex items-center justify-center gap-2 mb-2">
+            <h1 class="text-2xl font-extrabold tracking-wide text-white uppercase">
+                GAUTAM KUMAR JHA
+            </h1>
+            <!-- Blue Verified Tick Badge -->
+            <span class="inline-flex items-center justify-center text-blue-500 text-xl" title="Verified Trader">
+                <i class="fa-solid fa-circle-check"></i>
+            </span>
+        </div>
+
+        <!-- Subtitle / Tagline -->
+        <p class="text-slate-300 text-sm sm:text-base font-medium leading-relaxed mb-6 px-2">
+            Mastering Market Logic & Price Action with Simplicity.
+        </p>
+
+        <!-- Urgency Badge / Spots Left -->
+        <div class="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 text-red-400 font-bold text-xs uppercase tracking-wider px-4 py-1.5 rounded-full mb-5 animate-pulse">
+            <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+            JOIN NOW FAST • ONLY 14 SPOTS LEFT
+        </div>
+
+        <!-- Main Call To Action Button (Telegram) -->
+        <a href="https://t.me/+YjFND5cn9k8zMDk1/" target="_blank" rel="noopener noreferrer" 
+           class="group w-full flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-500 via-green-500 to-emerald-600 hover:from-emerald-400 hover:to-green-500 text-white font-extrabold text-lg sm:text-xl py-4 px-6 rounded-2xl shadow-lg shadow-emerald-500/30 animate-pulse-glow transition-all duration-300 transform active:scale-95 mb-8">
+            <i class="fa-paper-plane text-2xl group-hover:rotate-12 transition-transform duration-300"></i>
+            <span>JOIN FREE TELEGRAM</span>
+        </a>
+
+        <!-- Feature List Section -->
+        <div class="space-y-3.5 text-left">
+            <!-- Feature Item 1 -->
+            <div class="glass-feature rounded-xl p-3.5 flex items-center gap-3 border-l-emerald-500">
+                <div class="w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-lg flex-shrink-0">
+                    <i class="fa-solid fa-square-check"></i>
+                </div>
+                <span class="text-sm font-semibold text-slate-200">SEBI Registered Research Analyst</span>
+            </div>
+
+            <!-- Feature Item 2 -->
+            <div class="glass-feature rounded-xl p-3.5 flex items-center gap-3 border-l-blue-500">
+                <div class="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 text-lg flex-shrink-0">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <span class="text-sm font-semibold text-slate-200">Real-time Market Analysis</span>
+            </div>
+
+            <!-- Feature Item 3 -->
+            <div class="glass-feature rounded-xl p-3.5 flex items-center gap-3 border-l-amber-500">
+                <div class="w-8 h-8 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-400 text-lg flex-shrink-0">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <span class="text-sm font-semibold text-slate-200">Simple Price Action Logic</span>
+            </div>
+
+            <!-- Feature Item 4 -->
+            <div class="glass-feature rounded-xl p-3.5 flex items-center gap-3 border-l-purple-500">
+                <div class="w-8 h-8 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-400 text-lg flex-shrink-0">
+                    <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <span class="text-sm font-semibold text-slate-200">Educational & Learning Purpose</span>
+            </div>
+        </div>
+
+        <!-- Footer Disclaimer -->
+        <p class="text-[11px] text-slate-500 mt-6 font-medium">
+            © 2026 Gautam Kumar Jha. All rights reserved.
+        </p>
+    </div>
+
+</body>
+</html>
